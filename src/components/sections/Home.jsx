@@ -1,3 +1,5 @@
+import { StaticReveal } from "../StaticReveal";
+
 export const Home = () => {
   return (
     <section
