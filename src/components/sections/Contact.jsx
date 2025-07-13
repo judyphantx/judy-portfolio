@@ -80,6 +80,11 @@ export const Contact = () => {
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
+          <h3 className="text-center">
+            Please fill out the form below for inquiries. You will receive an
+            email confirmation upon submitting. I will reach out within 24-48
+            hours. Thank You!
+          </h3>
           <form className="space-y-6" onSubmit={handleSubmit} ref={formRef}>
             <div className="relative">
               <input
