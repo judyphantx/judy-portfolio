@@ -52,20 +52,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                   }
               `}
         >
-          Projects
-        </a>
-        <a
-          href="#projects"
-          onClick={() => setMenuOpen(false)}
-          className={`text-xl sm:text-2xl font-semibold text-white my-3 sm:my-4 transform transition-transform duration-300 touch-manipulation select-none active:scale-95
-                  ${
-                    menuOpen
-                      ? "opacity-100 translate-y-0"
-                      : "opacity-0 translate-y-5"
-                  }
-              `}
-        >
-          Hackathons
+          Projects & Hackathons
         </a>
         <a
           href="#contact"
