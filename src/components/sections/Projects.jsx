@@ -18,7 +18,7 @@ export const Projects = () => {
       id: 1,
       name: "AI Hackathon",
       date: "June 2025",
-      location: "The Unviversity of California at Berkeley",
+      location: "The University of California at Berkeley",
       projectTitle: "Guardian-Real-Time AI Voice Assistant for Personal Safety",
       achievement: "Participant",
       technologies: [
@@ -58,22 +58,22 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-20 pt-24"
     >
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           Featured Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover:-translate-y-2 transition-all duration-300 hover:border-blue-500/40"
+              className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-gray-700 hover:-translate-y-2 transition-all duration-300 hover:border-blue-500/40 touch-manipulation"
             >
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">{project.emoji}</span>
+                <span className="text-2xl sm:text-3xl">{project.emoji}</span>
                 <div>
-                  <h3 className="font-semibold text-white text-xl">
+                  <h3 className="font-semibold text-white text-lg sm:text-xl">
                     {project.title}
                   </h3>
                   <span
@@ -117,7 +117,7 @@ export const Projects = () => {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 hover:text-white py-2 px-4 rounded-lg text-sm transition-all border border-gray-600/50 hover:border-gray-500"
+                  className="bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 hover:text-white py-2 px-4 rounded-lg text-sm transition-all border border-gray-600/50 hover:border-gray-500 active:scale-95 touch-manipulation select-none"
                 >
                   View on GitHub
                 </a>
@@ -128,14 +128,14 @@ export const Projects = () => {
 
         {/* Hackathons Section */}
         <div className="mt-10">
-          <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-xl sm:text-2xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent text-center">
             Hackathons & Events
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {hackathons.map((hackathon) => (
               <div
                 key={hackathon.id}
-                className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 backdrop-blur-sm rounded-lg p-3 border border-purple-500/20 hover:-translate-y-1 transition-all duration-300 hover:border-purple-500/40"
+                className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-purple-500/20 hover:-translate-y-1 transition-all duration-300 hover:border-purple-500/40 touch-manipulation"
               >
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-2">

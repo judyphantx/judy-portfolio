@@ -42,7 +42,7 @@ export const Home = () => {
             href="https://github.com/judyphantx"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white text-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-110 active:scale-95 touch-manipulation"
+            className="text-gray-400 hover:text-white text-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-110"
             aria-label="GitHub"
           >
             <i className="fab fa-github"></i>
@@ -51,14 +51,14 @@ export const Home = () => {
             href="https://www.linkedin.com/in/judyphantx/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-blue-400 text-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-110 active:scale-95 touch-manipulation"
+            className="text-gray-400 hover:text-blue-400 text-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-110"
             aria-label="LinkedIn"
           >
             <i className="fab fa-linkedin"></i>
           </a>
           <a
             href="mailto:judy.phan@utdallas.edu"
-            className="text-gray-400 hover:text-purple-400 text-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-110 active:scale-95 touch-manipulation"
+            className="text-gray-400 hover:text-purple-400 text-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-110"
             aria-label="Email"
           >
             <i className="fas fa-envelope"></i>
