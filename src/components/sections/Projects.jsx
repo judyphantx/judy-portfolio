@@ -9,7 +9,7 @@ export const Projects = () => {
       emoji: "💼",
       status: "Completed",
       highlights: ["Responsive design", "Modern animations", "Clean UI/UX"],
-      github: "https://github.com/judyphantx/Portfolio_Website",
+      github: "https://github.com/judyphantx/judy-portfolio",
     },
   ];
 
