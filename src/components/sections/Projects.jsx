@@ -2,6 +2,33 @@ export const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "What's In My Fridge?",
+      description:
+        "A full-stack app (in progress) to track fridge inventory and suggest AI-generated recipes based on available ingredients.",
+      technologies: [
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "MongoDB",
+        "OpenCV",
+        "TensorFlow",
+        "Google Maps API",
+        "Barcode Scanning"
+      ],
+      emoji: "🍽️", 
+      status: "In Progress",
+      highlights: [
+        "Computer vision feature to scan and identify fridge items using OpenCV and TensorFlow",
+        "AI-generated recipe suggestions based on inventory",
+        "Responsive frontend with React and Tailwind CSS",
+        "Backend services with Node.js and MongoDB",
+        "Planned integration with Google API for nearby grocery stores",
+        "Barcode scanning for easy item entry"
+      ],
+      github: "https://github.com/judyphantx/whats_in_my_fridge",
+    },
+    {
+      id: 2,
       title: "Portfolio Website",
       description:
         "A responsive portfolio website showcasing my projects and skills, built with React and styled with Tailwind CSS.",
