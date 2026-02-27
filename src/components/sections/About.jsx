@@ -164,9 +164,9 @@ export const About = () => {
                     <span className="text-blue-400 text-xs mt-1">▶</span>
                     <p className="text-gray-300 text-xs">
                       <span className="text-blue-400 font-semibold">
-                        Designed and tested prompt-engineering strategies
+                        Tested and refined prompts
                       </span>{" "}
-                      during technical sprints to guide model behavior and improve response accuracy
+                      to generate accurate descriptions for images, improving model output quality across visual tasks
                     </p>
                   </div>
                 </div>
