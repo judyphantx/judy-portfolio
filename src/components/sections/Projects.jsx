@@ -38,6 +38,22 @@ export const Projects = () => {
       highlights: ["Responsive design", "Modern animations", "Clean UI/UX"],
       github: "https://github.com/judyphantx/judy-portfolio",
     },
+    {
+      id: 3,
+      title: "Sensor Fusion Lead | Autonomous Surface Vehicle – Virtual RobotX Competition",
+      description:
+        "Led a team of 8 as liaison between mechanical and software teams, coordinating LiDAR sensor fusion for autonomous navigation in a robotic surface vehicle.",
+      technologies: ["ROS", "Python", "LiDAR", "Computer Vision", "Path Planning", "Dijkstra's Algorithm", "RRT"],
+      emoji: "🤖",
+      status: "Completed",
+      highlights: [
+        "Led cross-functional team of 8 members (mechanical and software)",
+        "Implemented path planning algorithms (Dijkstra's and RRT) in ROS/Python",
+        "Coordinated LiDAR sensor fusion for autonomous navigation",
+        "Built dynamic simulations for validating autonomous vehicle behavior",
+        "Applied GNC (Guidance, Navigation, and Control) principles to autonomous systems",
+      ],
+    },
   ];
 
   const hackathons = [

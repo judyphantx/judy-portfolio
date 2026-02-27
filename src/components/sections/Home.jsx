@@ -11,7 +11,7 @@ export const Home = () => {
           Hi, I'm Judy Phan!
         </h1>
         <p className="text-gray-400 text-base sm:text-lg mb-8 max-w-lg mx-auto leading-relaxed">
-          I'm a master's student in Computer Science at UT Dallas and a former
+          I'm an aspiring Computer Science student and a former
           mechanical engineer, passionate about building AI-powered, full-stack
           solutions. I'm currently seeking internship opportunities to gain
           hands-on experience and drive real-world impact through technology.
