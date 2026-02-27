@@ -1,15 +1,30 @@
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "TailwindCSS",
-    "HTML",
-    "CSS",
     "JavaScript",
-    "Bootstrap",
-    "Figma",
+    "HTML/CSS",
+    "React",
+    "Tailwind CSS",
   ];
 
-  const backendSkills = ["Python", "C/C++", "MongoDB", "Postman", "Git/GitHub"];
+  const backendSkills = [
+    "Python",
+    "Java",
+    "C++",
+    "C",
+    "MATLAB",
+    "TensorFlow",
+    "OpenCV",
+    "Pygame",
+    "Flask",
+    "Git",
+    "GitHub",
+    "VSCode",
+    "Postman",
+    "Gemini API",
+    "Google Maps API",
+    "MongoDB",
+    "SQL",
+  ];
 
   return (
     <section id="about" className="min-h-screen flex items-center py-20">
@@ -87,8 +102,7 @@ export const About = () => {
                   </span>
                 </div>
                 <p className="text-gray-300 text-xs mt-2 leading-relaxed">
-                  Programming I, Programming II, Computer Organization/Machine
-                  Language, Data Structures and Algorithms
+                  Relevant Coursework: Programming I, Programming II (OOP in C++), Data Structures & Algorithms, Computer Organization/Machine Language
                 </p>
               </div>
 
@@ -111,7 +125,7 @@ export const About = () => {
                   </span>
                 </div>
                 <p className="text-gray-300 text-xs mt-2 leading-relaxed">
-                  Programming for Engineers, Computational Physics, Senior Design Project: Autonomous Surface Vehicle
+                  Relevant Coursework: Programming for Engineers, Computational Physics, Senior Design Project: Autonomous Surface Vehicle
                 </p>
               </div>
             </div>
@@ -124,8 +138,11 @@ export const About = () => {
                   <span className="text-2xl mt-1">🤖</span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-white text-lg mb-1">
-                      AI Fellow | Handshake AI
+                      AI Fellow
                     </h4>
+                    <p className="text-purple-400 text-sm mb-2">
+                      Handshake AI
+                    </p>
                     <p className="text-purple-400 text-sm mb-2">
                       December 2025 – Present • Remote
                     </p>
@@ -171,8 +188,11 @@ export const About = () => {
                   <span className="text-2xl mt-1">🎨</span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-white text-lg mb-1">
-                      Volunteer Web Designer | Develop for Good – Ohana Village Foundation
+                      Volunteer Web Designer
                     </h4>
+                    <p className="text-green-400 text-sm mb-2">
+                      Develop for Good – Ohana Village Foundation
+                    </p>
                     <p className="text-green-400 text-sm mb-2">
                       October 2025 – Present • Remote
                     </p>
@@ -218,8 +238,11 @@ export const About = () => {
                   <span className="text-2xl mt-1">🏢</span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-white text-lg mb-1">
-                      Property Condition & Evaluation Lead | CBRE, INC.
+                      Property Condition & Evaluation Lead
                     </h4>
+                    <p className="text-orange-400 text-sm mb-2">
+                      CBRE, INC.
+                    </p>
                     <p className="text-orange-400 text-sm mb-2">
                       July 2023 – Present • Remote
                     </p>
@@ -268,8 +291,11 @@ export const About = () => {
                   <span className="text-2xl mt-1">🎓</span>
                   <div className="flex-1">
                     <h4 className="font-semibold text-white text-lg mb-1">
-                      Computer Science Grader | UT Dallas
+                      Computer Science Grader
                     </h4>
+                    <p className="text-indigo-400 text-sm mb-2">
+                      UT Dallas
+                    </p>
                     <p className="text-indigo-400 text-sm mb-2">
                       September – December 2025 • Richardson, TX
                     </p>

@@ -40,12 +40,13 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: "Sensor Fusion Lead | Autonomous Surface Vehicle – Virtual RobotX Competition",
+      title: "Autonomous Surface Vehicle – Virtual RobotX Competition",
       description:
         "Led a team of 8 as liaison between mechanical and software teams, coordinating LiDAR sensor fusion for autonomous navigation in a robotic surface vehicle.",
       technologies: ["ROS", "Python", "LiDAR", "Computer Vision", "Path Planning", "Dijkstra's Algorithm", "RRT"],
       emoji: "🤖",
       status: "Completed",
+      image: "/Kanaloa.jpg",
       highlights: [
         "Led cross-functional team of 8 members (mechanical and software)",
         "Implemented path planning algorithms (Dijkstra's and RRT) in ROS/Python",
@@ -169,16 +170,24 @@ export const Projects = () => {
                 </div>
               </div>
 
-              {/* GitHub button centered at bottom */}
+              {/* GitHub button or Image section */}
               <div className="flex justify-center mt-6 pt-4 border-t border-gray-700/50">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 hover:text-white py-3 px-6 rounded-lg text-sm transition-all border border-gray-600/50 hover:border-gray-500 active:scale-95 touch-manipulation select-none"
-                >
-                  View on GitHub
-                </a>
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="max-h-48 rounded-lg object-contain hover:scale-105 transition-transform"
+                  />
+                ) : (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-800/50 hover:bg-gray-700/50 text-gray-300 hover:text-white py-3 px-6 rounded-lg text-sm transition-all border border-gray-600/50 hover:border-gray-500 active:scale-95 touch-manipulation select-none"
+                  >
+                    View on GitHub
+                  </a>
+                )}
               </div>
             </div>
           ))}
