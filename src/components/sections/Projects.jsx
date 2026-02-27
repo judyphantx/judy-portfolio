@@ -1,3 +1,5 @@
+import kanaloaImage from "../../assets/Kanaloa.jpg";
+
 export const Projects = () => {
   const projects = [
     {
@@ -46,7 +48,7 @@ export const Projects = () => {
       technologies: ["ROS", "Python", "LiDAR", "Computer Vision", "Path Planning", "Dijkstra's Algorithm", "RRT"],
       emoji: "🤖",
       status: "Completed",
-      image: "/Kanaloa.jpg",
+      image: kanaloaImage,
       highlights: [
         "Led cross-functional team of 8 members (mechanical and software)",
         "Implemented path planning algorithms (Dijkstra's and RRT) in ROS/Python",
